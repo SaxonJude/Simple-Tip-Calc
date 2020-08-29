@@ -1,17 +1,14 @@
 body {
   font-family: 'rubik';
+  margin: 0px;
+  padding: 0px;
 }
 
 #container {
-  margin: 0px;
-  padding: 0px;
   display: flex;
   justify-content: center;
-  border: 1px solid black;
   height: 100vh;
-  width: auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 background: rgb(20,30,48);
@@ -20,13 +17,16 @@ background: linear-gradient(90deg, rgba(20,30,48,1) 0%, rgba(36,59,85,1) 100%);
 
 .mainform {
   background-color: white;
-  border: 1px solid green;
   border-radius: 10px;
   width: 25em;
   height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-box-shadow: -1px 0px 52px 1px rgba(0,0,0,0.46);
+-moz-box-shadow: -1px 0px 52px 1px rgba(0,0,0,0.46);
+box-shadow: -1px 0px 52px 1px rgba(0,0,0,0.46);
+  -webkit-box-shadow: inset -1px -6px 105px -28px rgba(0,0,0,0.43);
 }
 
 .title {
@@ -67,20 +67,24 @@ select {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   border: 1px solid black;
   padding: 1em 4em;
   border-radius: 5px;
+background: rgb(27,25,54);
+background: linear-gradient(90deg, rgba(27,25,54,1) 0%, rgba(16,34,47,1) 0%, rgba(16,34,47,1) 0%, rgba(43,70,101,1) 100%);
 }
 
 .button {
   text-align: center;
   margin-top: 15px;
+  font-weight: 600;
   width: 200px;
 }
 
 .output {
   border: 1px solid black;
+  border-radius: 5px;
   height: 3em;
   width: 80%;
   margin-top: 2em;
