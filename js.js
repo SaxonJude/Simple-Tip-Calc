@@ -23,5 +23,11 @@ function calcTip() {
     tip = 0.1;
   };
   var total = bill * tip;
-  output.textContent = `You should tip $${total} for $${bill}`;
+  if(bill === ''){
+    output.textContent = `----`
+  } else {
+    output.textContent = `$${bill} should be a $${total} tip.`;
+  };
 };
+
+
