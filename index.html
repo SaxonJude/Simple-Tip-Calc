@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+<title>Tip Calculator</title>
+</head>
+<body>
+  
+  <div id='container'>
+     <div class='mainform'>
+       <h3 class='title'><i class="fas fa-calculator"></i> TIP CALCULATOR</h3>
+       <hr>
+       
+       <form class='form'>
+         <div class='amount'>
+           <label for='amount'>Amount: </label>
+           <input type='number' href='#' class='amountInput' name='amount' placeholder='£000.00'>
+         </div>
+       
+         <div class='rating'>
+           <label for='service'>How was your service?: </label>
+           <select id='service'>
+             <option value='excellect'>Excellent</option>
+             <option value='good'>Good</option>
+             <option value='decent'>Decent</option>
+             <option value='notsogood'>Not so good</option>
+             <option value='terrible'>Terrible</option>
+           </select>
+         </div>
+       </form>
+       
+       <div class='button'>
+         <a href='#'>Calculate!</a>
+       </div>
+       
+       <div class='output'>
+         You should tip ... For ...
+       </div>
+       
+     </div>
+  </div>
+  
+</body>
+</html>
