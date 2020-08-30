@@ -12,36 +12,39 @@
   
   <div id='container'>
      <div class='mainform'>
-       <h3 class='title'><i class="fas fa-calculator"></i> TIP CALCULATOR</h3>
-       <hr>
+       <h3 class='title'><i class="fas fa-calculator"></i>  <span>TIP</span> CALCULATOR</h3>
+       <br>
        
        <form class='form'>
          <div class='amount'>
            <label for='amount'>Amount: </label>
-           <input type='number' href='#' class='amountInput' name='amount' placeholder='£000.00'>
+           <input type='number' href='#' class='amountInput' name='amount' placeholder='$'>
          </div>
        
          <div class='rating'>
            <label for='service'>How was your service?: </label>
            <select id='service'>
-             <option value='excellect'>Excellent</option>
-             <option value='good'>Good</option>
-             <option value='decent'>Decent</option>
-             <option value='notsogood'>Not so good</option>
-             <option value='terrible'>Terrible</option>
+             <option class='excellent'>Excellent</option>
+             <option class='good'>Good</option>
+             <option class='decent'>Decent</option>
+             <option class='notsogood'>Not so good</option>
+             <option class='terrible'>Terrible</option>
            </select>
          </div>
        </form>
        
-       <div class='button'>
-         <a href='#'>Calculate!</a>
+       <div>
+         <a class='button' href='#'>Calculate! </a>
        </div>
        
        <div class='output'>
-         You should tip ... For ...
+         ----
        </div>
        
      </div>
+    <div class="createdBy">
+        <em>Created by Saxon Du Plooy</em>
+    </div>
   </div>
   
 </body>
