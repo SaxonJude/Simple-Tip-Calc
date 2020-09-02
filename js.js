@@ -7,6 +7,7 @@ var messagePop = document.querySelector('.clearMessage');
 button.addEventListener('click', calcTip);
 inputVal.addEventListener('keypress', (e) => {
   if(e.key === 'Enter'){
+    e.preventDefault();
     calcTip();
   }
 });
